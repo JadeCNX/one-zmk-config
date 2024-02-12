@@ -21,6 +21,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        excl {
+            bindings = <&kp EXCL>;
+            key-positions = <1 13>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
