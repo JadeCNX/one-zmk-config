@@ -18,24 +18,14 @@
 &mt { quick-tap-ms = <220>; };
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        tri-layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
-
-    combos {
-        compatible = "zmk,combos";
-
-        excl {
-            bindings = <&kp EXCL>;
-            key-positions = <1 13>;
-            layers = <0>;
-        };
-    };
+    # conditional_layers {
+    #     compatible = "zmk,conditional-layers";
+    #
+    #     tri-layer {
+    #         if-layers = <1 2>;
+    #         then-layer = <3>;
+    #     };
+    # };
 
     behaviors {
         hm: homerow_mods {
