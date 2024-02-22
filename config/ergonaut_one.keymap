@@ -46,10 +46,10 @@
 
         nav_layer {
             bindings = <
-&none  &none      &none     &none     &none      &none  &kp LG(LS(Z))  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &none
-&none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none  &kp LEFT       &kp DOWN   &kp UP     &kp RIGHT  &kp CAPS   &none
-&none  &none      &none     &none     &none      &none  &kp HOME       &kp PG_DN  &kp PG_UP  &kp END    &kp INS    &none
-                            &none     &none      &none  &kp RET        &kp BSPC   &kp DEL
+&none          &none      &none      &none      &none      &none  &kp LG(LS(Z))  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &none
+&none          &kp LCTRL  &kp LALT   &kp LGUI   &kp LSHFT  &none  &kp LEFT       &kp DOWN   &kp UP     &kp RIGHT  &kp CAPS   &none
+&kp RG(RS(Z))  &kp RG(Z)  &kp RG(X)  &kp RG(C)  &kp RG(V)  &none  &kp HOME       &kp PG_DN  &kp PG_UP  &kp END    &kp INS    &none
+                                     &none      &none      &none  &kp RET        &kp BSPC   &kp DEL
             >;
         };
 
