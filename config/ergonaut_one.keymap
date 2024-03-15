@@ -19,6 +19,7 @@
 
 &caps_word {
     /delete-property/ ignore-modifiers;
+
     continue-list = <UNDERSCORE MINUS BACKSPACE DELETE LSHFT RSHFT>;
 };
 
@@ -34,6 +35,15 @@
             quick_tap_ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        Capsword {
+            bindings = <&caps_word>;
+            key-positions = <16 19>;
         };
     };
 
