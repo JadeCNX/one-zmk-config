@@ -4,10 +4,17 @@
 if SHIELD_ERGONAUT_ONE_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Ergonaut One"
+	default "Ergonaut One L"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
+
+endif
+
+if SHIELD_ERGONAUT_ONE_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "Ergonaut One R"
 
 endif
 
