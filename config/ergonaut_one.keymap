@@ -17,6 +17,10 @@
 
 &mt { quick-tap-ms = <200>; };
 
+&soft_off {
+    hold-time-ms = <3000>;
+};
+
 &caps_word {
     /delete-property/ ignore-modifiers;
 
