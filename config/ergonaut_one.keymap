@@ -63,8 +63,8 @@
         nav_layer {
             bindings = <
 &none          &none      &none      &none      &none      &none  &kp LG(LS(Z))  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &none
-&none          &kp LCTRL  &kp LALT   &kp LGUI   &kp LSHFT  &none  &kp LEFT       &kp DOWN   &kp UP     &kp RIGHT  &kp CAPS   &none
-&kp RG(RS(Z))  &kp RG(Z)  &kp RG(X)  &kp RG(C)  &kp RG(V)  &none  &kp HOME       &kp PG_DN  &kp PG_UP  &kp END    &kp INS    &none
+&none          &kp LCTRL  &kp LALT   &kp LGUI   &kp LSHFT  &none  &kp LEFT       &kp DOWN   &kp UP     &kp RIGHT  &none      &none
+&kp RG(RS(Z))  &kp RG(Z)  &kp RG(X)  &kp RG(C)  &kp RG(V)  &none  &kp HOME       &kp PG_DN  &kp PG_UP  &kp END    &kp INS    &kp CAPS
                                      &none      &none      &none  &kp RET        &kp BSPC   &kp DEL
             >;
         };
@@ -89,19 +89,19 @@
 
         num_layer {
             bindings = <
-&none  &kp LBKT   &kp N7  &kp N8   &kp N9  &kp RBKT   &none  &none      &none      &none     &none     &none
-&none  &kp SQT    &kp N4  &kp N5   &kp N6  &kp EQUAL  &none  &kp RSHFT  &kp RCTRL  &kp LALT  &kp RGUI  &none
-&none  &kp GRAVE  &kp N1  &kp N2   &kp N3  &kp BSLH   &none  &none      &none      &none     &none     &none
-                          &kp DOT  &kp N0  &kp MINUS  &none  &none      &none
+&kp SEMICOLON   &kp LCTRL  &kp N7  &kp N8  &kp N9     &kp EQUAL     &none  &none      &none      &none     &none     &none
+&kp COLON       &kp PLUS   &kp N4  &kp N5  &kp N6     &kp ASTERISK  &none  &kp RSHFT  &kp RCTRL  &kp LALT  &kp RGUI  &none
+&kp UNDERSCORE  &kp MINUS  &kp N1  &kp N2  &kp N3     &kp SLASH     &none  &none      &none      &none     &none     &none
+                                   &kp N0  &kp SPACE  &kp DOT       &none  &none      &none
             >;
         };
 
         sym_layer {
             bindings = <
-&none  &kp LBRC   &kp AMPS  &kp STAR   &kp LPAR   &kp RBRC   &none  &none      &none     &none     &none      &none
-&none  &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET  &kp PLUS   &none  &kp RSHFT  &kp RGUI  &kp RALT  &kp RCTRL  &none
-&none  &kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE   &none  &none      &none     &none     &none      &none
-                            &kp LPAR   &kp RPAR   &kp UNDER  &none  &none      &mo ADJ
+&kp LEFT_BRACE        &kp TILDE       &kp AMPS  &kp STAR   &kp LPAR   &kp RBRC               &none  &none      &none     &none     &none      &none
+&kp LEFT_BRACKET      &kp EQUAL       &kp DLLR  &kp PRCNT  &kp CARET  &kp RIGHT_BRACKET      &none  &kp RSHFT  &kp RGUI  &kp RALT  &kp RCTRL  &none
+&kp LEFT_PARENTHESIS  &kp UNDERSCORE  &kp EXCL  &kp AT     &kp HASH   &kp RIGHT_PARENTHESIS  &none  &none      &none     &none     &none      &none
+                                                &kp SLASH  &kp SPACE  &kp BACKSLASH          &none  &none      &mo ADJ
             >;
         };
 
