@@ -104,7 +104,7 @@ layers:
   - Gui
   - Shift
   - ''
-  - GLOBE
+  - ''
   - ''
   - ''
   - ''
@@ -192,9 +192,9 @@ layers:
   - '*'
   - ''
   - Shift
-  - Ctrl
-  - Alt
   - Gui
+  - Alt
+  - Ctrl
   - ''
   - ''
   - '-'
@@ -208,9 +208,9 @@ layers:
   - ''
   - ''
   - ''
-  - '0'
-  - ␣
   - '='
+  - '0'
+  - +
   - ''
   - {type: held}
   - ''
@@ -252,8 +252,8 @@ layers:
   - ''
   - ''
   - (
-  - ␣
   - )
+  - '|'
   - {type: held}
   - ''
   - adjust
@@ -276,11 +276,11 @@ layers:
   - F5
   - F6
   - SLCK
-  - GLOBE
+  - ''
   - Shift
-  - Ctrl
-  - Alt
   - Gui
+  - Alt
+  - Ctrl
   - ''
   - ''
   - F10
@@ -294,7 +294,7 @@ layers:
   - ''
   - ''
   - ''
-  - ESCAPE
+  - Esc
   - ␣
   - ↹
   - ''

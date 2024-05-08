@@ -72,7 +72,7 @@
         mouse_layer {
             bindings = <
 &none  &none      &none     &none     &none      &none  &kp GLOBE  &kp C_AC_SEARCH  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp K_APP  &none
-&none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none  &kp GLOBE  &none            &none                              &none                                   &none      &none
+&none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none  &none      &none            &none                              &none                                   &none      &none
 &none  &none      &none     &none     &none      &none  &none      &none            &none                              &none                                   &none      &none
                             &mo ADJ   &none      &none  &mkp MB1   &mkp MB2         &mkp MB3
             >;
@@ -89,10 +89,10 @@
 
         num_layer {
             bindings = <
-&none  &kp COMMA  &kp N7  &kp N8  &kp N9     &kp DOT       &none  &none      &none      &none     &none     &none
-&none  &kp PLUS   &kp N4  &kp N5  &kp N6     &kp ASTERISK  &none  &kp RSHFT  &kp RCTRL  &kp LALT  &kp RGUI  &none
-&none  &kp MINUS  &kp N1  &kp N2  &kp N3     &kp SLASH     &none  &none      &none      &none     &none     &none
-                          &kp N0  &kp SPACE  &kp EQUAL     &none  &none      &none
+&none  &kp COMMA  &kp N7  &kp N8     &kp N9  &kp DOT       &none  &none      &none     &none     &none      &none
+&none  &kp PLUS   &kp N4  &kp N5     &kp N6  &kp ASTERISK  &none  &kp RSHFT  &kp RGUI  &kp LALT  &kp RCTRL  &none
+&none  &kp MINUS  &kp N1  &kp N2     &kp N3  &kp SLASH     &none  &none      &none     &none     &none      &none
+                          &kp EQUAL  &kp N0  &kp PLUS      &none  &none      &none
             >;
         };
 
@@ -101,16 +101,16 @@
 &none  &none  &kp AMPS  &kp STAR   &kp LPAR   &none     &none  &none      &none     &none     &none      &none
 &none  &none  &kp DLLR  &kp PRCNT  &kp CARET  &none     &none  &kp RSHFT  &kp RGUI  &kp RALT  &kp RCTRL  &none
 &none  &none  &kp EXCL  &kp AT     &kp HASH   &none     &none  &none      &none     &none     &none      &none
-                        &kp LPAR   &kp SPACE  &kp RPAR  &none  &none      &mo ADJ
+                        &kp LPAR   &kp RPAR   &kp PIPE  &none  &none      &mo ADJ
             >;
         };
 
         fun_layer {
             bindings = <
-&none  &kp F12  &kp F7  &kp F8      &kp F9     &kp PSCRN        &none      &none      &none      &none     &none     &none
-&none  &kp F11  &kp F4  &kp F5      &kp F6     &kp SLCK         &kp GLOBE  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &none
-&none  &kp F10  &kp F1  &kp F2      &kp F3     &kp PAUSE_BREAK  &none      &none      &none      &none     &none     &none
-                        &kp ESCAPE  &kp SPACE  &kp TAB          &none      &none      &mo ADJ
+&none  &kp F12  &kp F7  &kp F8   &kp F9     &kp PSCRN        &none  &none      &none     &none     &none      &none
+&none  &kp F11  &kp F4  &kp F5   &kp F6     &kp SLCK         &none  &kp LSHFT  &kp RGUI  &kp LALT  &kp RCTRL  &none
+&none  &kp F10  &kp F1  &kp F2   &kp F3     &kp PAUSE_BREAK  &none  &none      &none     &none     &none      &none
+                        &kp ESC  &kp SPACE  &kp TAB          &none  &none      &mo ADJ
             >;
         };
 
