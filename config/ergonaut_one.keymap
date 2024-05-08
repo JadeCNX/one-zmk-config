@@ -53,10 +53,10 @@
 
         default_layer {
             bindings = <
-&kp RBKT   &kp Q        &kp W       &kp E          &kp R          &kp T          &kp Y        &kp U         &kp I        &kp O       &kp P           &kp LBKT
-&kp GRAVE  &hm LCTRL A  &hm LALT S  &hm LGUI D     &hm LSHFT F    &kp G          &kp H        &hm RSHFT J   &hm RGUI K   &hm RALT L  &hm RCTRL SEMI  &kp SQT
-&kp MINUS  &kp Z        &kp X       &kp C          &kp V          &kp B          &kp N        &kp M         &kp COMMA    &kp DOT     &kp FSLH        &kp BSLH
-                                    &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB  &lt SYM RET  &lt NUM BSPC  &lt FUN DEL
+&kp BACKSLASH  &kp Q        &kp W       &kp E          &kp R          &kp T          &kp Y        &kp U         &kp I        &kp O       &kp P           &kp LBKT
+&kp GRAVE      &hm LCTRL A  &hm LALT S  &hm LGUI D     &hm LSHFT F    &kp G          &kp H        &hm RSHFT J   &hm RGUI K   &hm RALT L  &hm RCTRL SEMI  &kp SQT
+&kp MINUS      &kp Z        &kp X       &kp C          &kp V          &kp B          &kp N        &kp M         &kp COMMA    &kp DOT     &kp FSLH        &kp RBKT
+                                        &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB  &lt SYM RET  &lt NUM BSPC  &lt FUN DEL
             >;
         };
 
@@ -71,10 +71,10 @@
 
         mouse_layer {
             bindings = <
-&none  &none     &none     &none      &none      &none  &kp GLOBE  &kp C_AC_SEARCH  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp K_APP  &none
-&none  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none  &kp GLOBE  &none            &none                              &none                                   &none      &none
-&none  &none     &none     &none      &none      &none  &none      &none            &none                              &none                                   &none      &none
-                           &mo ADJ    &none      &none  &mkp MB1   &mkp MB2         &mkp MB3
+&none  &none      &none     &none     &none      &none  &kp GLOBE  &kp C_AC_SEARCH  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp K_APP  &none
+&none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none  &kp GLOBE  &none            &none                              &none                                   &none      &none
+&none  &none      &none     &none     &none      &none  &none      &none            &none                              &none                                   &none      &none
+                            &mo ADJ   &none      &none  &mkp MB1   &mkp MB2         &mkp MB3
             >;
         };
 
@@ -89,19 +89,19 @@
 
         num_layer {
             bindings = <
-&kp SEMICOLON   &kp LCTRL  &kp N7  &kp N8  &kp N9     &kp EQUAL     &none  &none      &none      &none     &none     &none
-&kp COLON       &kp PLUS   &kp N4  &kp N5  &kp N6     &kp ASTERISK  &none  &kp RSHFT  &kp RCTRL  &kp LALT  &kp RGUI  &none
-&kp UNDERSCORE  &kp MINUS  &kp N1  &kp N2  &kp N3     &kp SLASH     &none  &none      &none      &none     &none     &none
-                                   &kp N0  &kp SPACE  &kp DOT       &none  &none      &none
+&none  &kp COMMA  &kp N7  &kp N8  &kp N9     &kp DOT       &none  &none      &none      &none     &none     &none
+&none  &kp PLUS   &kp N4  &kp N5  &kp N6     &kp ASTERISK  &none  &kp RSHFT  &kp RCTRL  &kp LALT  &kp RGUI  &none
+&none  &kp MINUS  &kp N1  &kp N2  &kp N3     &kp SLASH     &none  &none      &none      &none     &none     &none
+                          &kp N0  &kp SPACE  &kp EQUAL     &none  &none      &none
             >;
         };
 
         sym_layer {
             bindings = <
-&kp LEFT_BRACE        &kp TILDE       &kp AMPS  &kp STAR   &kp LPAR   &kp RBRC               &none  &none      &none     &none     &none      &none
-&kp LEFT_BRACKET      &kp EQUAL       &kp DLLR  &kp PRCNT  &kp CARET  &kp RIGHT_BRACKET      &none  &kp RSHFT  &kp RGUI  &kp RALT  &kp RCTRL  &none
-&kp LEFT_PARENTHESIS  &kp UNDERSCORE  &kp EXCL  &kp AT     &kp HASH   &kp RIGHT_PARENTHESIS  &none  &none      &none     &none     &none      &none
-                                                &kp SLASH  &kp SPACE  &kp BACKSLASH          &none  &none      &mo ADJ
+&none  &none  &kp AMPS  &kp STAR   &kp LPAR   &none     &none  &none      &none     &none     &none      &none
+&none  &none  &kp DLLR  &kp PRCNT  &kp CARET  &none     &none  &kp RSHFT  &kp RGUI  &kp RALT  &kp RCTRL  &none
+&none  &none  &kp EXCL  &kp AT     &kp HASH   &none     &none  &none      &none     &none     &none      &none
+                        &kp LPAR   &kp SPACE  &kp RPAR  &none  &none      &mo ADJ
             >;
         };
 
