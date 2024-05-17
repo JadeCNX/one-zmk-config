@@ -96,6 +96,21 @@
             bindings = <&kp PLUS>;
             key-positions = <10 11>;
         };
+
+        cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <25 26>;
+        };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <26 27>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <27 28>;
+        };
     };
 
     keymap {
