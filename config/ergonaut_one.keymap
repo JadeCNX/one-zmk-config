@@ -146,10 +146,10 @@
 
         mouse_layer {
             bindings = <
-&none  &none      &none     &none     &none      &none  &none     &kp C_AC_SEARCH  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp K_APP  &none
-&none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none  &none     &none            &none                              &none                                   &none      &none
-&none  &none      &none     &none     &none      &none  &none     &none            &none                              &none                                   &none      &none
-                            &mo ADJ   &none      &none  &mkp MB1  &mkp MB2         &mkp MB3
+&none  &none      &none     &none     &none      &none  &kp GLOBE  &kp C_AC_SEARCH  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp K_APP  &none
+&none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none  &none      &none            &none                              &none                                   &none      &none
+&none  &none      &none     &none     &none      &none  &none      &none            &none                              &none                                   &none      &none
+                            &mo ADJ   &none      &none  &mkp MB1   &mkp MB2         &mkp MB3
             >;
         };
 
