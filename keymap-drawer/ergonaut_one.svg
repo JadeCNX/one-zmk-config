@@ -374,6 +374,14 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="224" dy="-0.6em">Gui+</tspan><tspan x="224" dy="1.2em">V</tspan>
 </text>
 </g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="602" y="130" width="28" height="26" class="combo"/>
+<text x="616" y="144" class="combo tap">(</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="658" y="130" width="28" height="26" class="combo"/>
+<text x="672" y="144" class="combo tap">)</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-nav">
@@ -585,6 +593,14 @@ path.combo { stroke: #7f7f7f; }
 <text x="224" y="144" class="combo tap">
 <tspan x="224" dy="-0.6em">Gui+</tspan><tspan x="224" dy="1.2em">V</tspan>
 </text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="602" y="130" width="28" height="26" class="combo"/>
+<text x="616" y="144" class="combo tap">(</text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="658" y="130" width="28" height="26" class="combo"/>
+<text x="672" y="144" class="combo tap">)</text>
 </g>
 </g>
 </g>
@@ -804,6 +820,14 @@ path.combo { stroke: #7f7f7f; }
 <text x="224" y="144" class="combo tap">
 <tspan x="224" dy="-0.6em">Gui+</tspan><tspan x="224" dy="1.2em">V</tspan>
 </text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="602" y="130" width="28" height="26" class="combo"/>
+<text x="616" y="144" class="combo tap">(</text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="658" y="130" width="28" height="26" class="combo"/>
+<text x="672" y="144" class="combo tap">)</text>
 </g>
 </g>
 </g>
@@ -1028,6 +1052,14 @@ path.combo { stroke: #7f7f7f; }
 <tspan x="224" dy="-0.6em">Gui+</tspan><tspan x="224" dy="1.2em">V</tspan>
 </text>
 </g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="602" y="130" width="28" height="26" class="combo"/>
+<text x="616" y="144" class="combo tap">(</text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="658" y="130" width="28" height="26" class="combo"/>
+<text x="672" y="144" class="combo tap">)</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1323)" class="layer-num">
@@ -1232,6 +1264,14 @@ path.combo { stroke: #7f7f7f; }
 <text x="224" y="144" class="combo tap">
 <tspan x="224" dy="-0.6em">Gui+</tspan><tspan x="224" dy="1.2em">V</tspan>
 </text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="602" y="130" width="28" height="26" class="combo"/>
+<text x="616" y="144" class="combo tap">(</text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="658" y="130" width="28" height="26" class="combo"/>
+<text x="672" y="144" class="combo tap">)</text>
 </g>
 </g>
 </g>
@@ -1438,6 +1478,14 @@ path.combo { stroke: #7f7f7f; }
 <text x="224" y="144" class="combo tap">
 <tspan x="224" dy="-0.6em">Gui+</tspan><tspan x="224" dy="1.2em">V</tspan>
 </text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="602" y="130" width="28" height="26" class="combo"/>
+<text x="616" y="144" class="combo tap">(</text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="658" y="130" width="28" height="26" class="combo"/>
+<text x="672" y="144" class="combo tap">)</text>
 </g>
 </g>
 </g>
@@ -1647,6 +1695,14 @@ path.combo { stroke: #7f7f7f; }
 <text x="224" y="144" class="combo tap">
 <tspan x="224" dy="-0.6em">Gui+</tspan><tspan x="224" dy="1.2em">V</tspan>
 </text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="602" y="130" width="28" height="26" class="combo"/>
+<text x="616" y="144" class="combo tap">(</text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="658" y="130" width="28" height="26" class="combo"/>
+<text x="672" y="144" class="combo tap">)</text>
 </g>
 </g>
 </g>
@@ -1898,6 +1954,14 @@ path.combo { stroke: #7f7f7f; }
 <text x="224" y="144" class="combo tap">
 <tspan x="224" dy="-0.6em">Gui+</tspan><tspan x="224" dy="1.2em">V</tspan>
 </text>
+</g>
+<g class="combo combopos-13">
+<rect rx="6" ry="6" x="602" y="130" width="28" height="26" class="combo"/>
+<text x="616" y="144" class="combo tap">(</text>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="658" y="130" width="28" height="26" class="combo"/>
+<text x="672" y="144" class="combo tap">)</text>
 </g>
 </g>
 </g>
