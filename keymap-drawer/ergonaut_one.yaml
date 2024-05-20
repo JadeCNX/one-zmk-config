@@ -377,16 +377,19 @@ combos:
 - p: [10, 22]
   k: +
   l: [default]
-- p: [25, 26]
+- p: [25, 13]
+  k: Gui+ Z
+  l: [default]
+- p: [14, 26]
   k: Gui+ X
   l: [default]
-- p: [26, 27]
+- p: [15, 27]
   k: Gui+ C
   l: [default]
-- p: [27, 28]
+- p: [16, 28]
   k: Gui+ V
   l: [default]
-- p: [31, 19]
+- p: [19, 31]
   k: (
   l: [default]
 - p: [32, 20]
