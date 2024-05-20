@@ -127,13 +127,13 @@
 
         lpar {
             bindings = <&kp LPAR>;
-            key-positions = <31 32>;
+            key-positions = <31 19>;
             layers = <0>;
         };
 
         rpar {
             bindings = <&kp RPAR>;
-            key-positions = <32 33>;
+            key-positions = <32 20>;
             layers = <0>;
         };
     };

@@ -386,9 +386,9 @@ combos:
 - p: [27, 28]
   k: Gui+ V
   l: [default]
-- p: [31, 32]
+- p: [31, 19]
   k: (
   l: [default]
-- p: [32, 33]
+- p: [32, 20]
   k: )
   l: [default]
