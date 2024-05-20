@@ -347,34 +347,34 @@ combos:
 - p: [16, 19]
   k: Caps Word
   l: [default]
-- p: [0, 1]
+- p: [1, 13]
   k: '!'
   l: [default]
-- p: [1, 2]
+- p: [2, 14]
   k: '@'
   l: [default]
-- p: [3, 2]
+- p: [3, 15]
   k: '#'
   l: [default]
-- p: [4, 3]
+- p: [4, 16]
   k: $
   l: [default]
-- p: [4, 5]
+- p: [5, 17]
   k: '%'
   l: [default]
-- p: [7, 6]
+- p: [6, 18]
   k: ^
   l: [default]
-- p: [8, 7]
+- p: [7, 19]
   k: '&'
   l: [default]
-- p: [9, 8]
+- p: [8, 20]
   k: '*'
   l: [default]
-- p: [10, 9]
+- p: [9, 21]
   k: '='
   l: [default]
-- p: [10, 11]
+- p: [10, 22]
   k: +
   l: [default]
 - p: [25, 26]
