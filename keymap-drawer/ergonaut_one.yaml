@@ -165,9 +165,9 @@ layers:
   - Out BLE
   - OUT TOG
   - Reset
+  - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -222,4 +222,10 @@ combos:
   l: [default]
 - p: [32, 20]
   k: )
+  l: [default]
+- p: [38, 36]
+  k: adjust
+  l: [default]
+- p: [39, 41]
+  k: adjust
   l: [default]
