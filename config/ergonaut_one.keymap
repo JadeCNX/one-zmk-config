@@ -5,13 +5,9 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define BASE 0
-#define NAV 1
-#define MOUSE 2
-#define MEDIA 3
-#define NUM 4
-#define SYM 5
-#define FUN 6
-#define ADJ 7
+#define FUN 1
+#define NUM 2
+#define ADJ 3
 
 &lt { quick-tap-ms = <200>; };
 
@@ -156,57 +152,21 @@
             >;
         };
 
-        nav_layer {
+        fun_layer {
             bindings = <
-&none  &none      &none     &none     &none      &none  &none     &none      &none      &none      &none    &none
-&none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none    &none
-&none  &none      &none     &none     &none      &none  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp INS  &kp CAPS
-                            &none     &none      &none  &kp RET   &kp BSPC   &kp DEL
-            >;
-        };
-
-        mouse_layer {
-            bindings = <
-&none  &none      &none     &none     &none      &none  &kp GLOBE  &kp C_AC_SEARCH  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp K_APP  &none
-&none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none  &none      &none            &none                              &none                                   &none      &none
-&none  &none      &none     &none     &none      &none  &none      &none            &none                              &none                                   &none      &none
-                            &mo ADJ   &none      &none  &mkp MB1   &mkp MB2         &mkp MB3
-            >;
-        };
-
-        media_layer {
-            bindings = <
-&none  &none      &none     &none     &none      &none    &kp LG(LS(LC(N3)))  &kp LS(LG(LC(N4)))  &kp C_BRI_DN  &kp C_BRI_UP  &none       &none
-&none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none    &none               &kp C_PREV          &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &none
-&none  &none      &none     &none     &none      &none    &kp LS(LG(N3))      &kp LG(LS(N4))      &none         &none         &none       &none
-                            &none     &none      &mo ADJ  &kp C_STOP          &kp C_PP            &kp K_MUTE
+&kp BACKSLASH    &none  &kp F7  &kp F8        &kp F9           &kp F12   &none    &none                &none              &none      &kp CAPS &kp LBKT
+&hm LCTRL EQUAL  &none  &kp F4  &kp F5        &kp F6           &kp F11   &kp LEFT &kp DOWN             &kp UP             &kp RIGHT  &none    &hm RCTRL SQT
+&hm LALT MINUS   &none  &kp F1  &kp F2        &kp F3           &kp F10   &kp HOME &kp PG_DN            &kp PG_UP          &kp END    &kp INS  &hm RALT RBKT
+                                &hm LGUI ESC  &hm LSHFT SPACE  &none     &kp RET  &hm RSHFT BACKSPACE  &hm RGUI DELETE
             >;
         };
 
         num_layer {
             bindings = <
-&none  &none  &kp N7  &kp N8   &kp N9  &none    &none  &none      &none     &none     &none      &none
-&none  &none  &kp N4  &kp N5   &kp N6  &none    &none  &kp RSHFT  &kp RGUI  &kp LALT  &kp RCTRL  &none
-&none  &none  &kp N1  &kp N2   &kp N3  &none    &none  &none      &none     &none     &none      &none
-                      &kp ESC  &kp N0  &kp TAB  &none  &none      &none
-            >;
-        };
-
-        sym_layer {
-            bindings = <
-&none  &none  &kp AMPS  &kp STAR   &kp LPAR   &none     &none  &none      &none     &none     &none      &none
-&none  &none  &kp DLLR  &kp PRCNT  &kp CARET  &none     &none  &kp RSHFT  &kp RGUI  &kp RALT  &kp RCTRL  &none
-&none  &none  &kp EXCL  &kp AT     &kp HASH   &none     &none  &none      &none     &none     &none      &none
-                        &kp LPAR   &kp RPAR   &kp PIPE  &none  &none      &mo ADJ
-            >;
-        };
-
-        fun_layer {
-            bindings = <
-&none  &none  &kp F7  &kp F8   &kp F9     &kp F12  &none  &none      &none     &none     &none      &none
-&none  &none  &kp F4  &kp F5   &kp F6     &kp F11  &none  &kp LSHFT  &kp RGUI  &kp LALT  &kp RCTRL  &none
-&none  &none  &kp F1  &kp F2   &kp F3     &kp F10  &none  &none      &none     &none     &none      &none
-                      &kp ESC  &kp SPACE  &kp TAB  &none  &none      &mo ADJ
+&kp BACKSLASH    &none  &kp N7  &kp N8        &kp N9            &none      &kp LG(LS(LC(N3)))  &kp LS(LG(LC(N4)))   &kp C_BRI_DN    &kp C_BRI_UP  &none       &kp LBKT
+&hm LCTRL EQUAL  &none  &kp N4  &kp N5        &kp N6            &none      &none               &kp C_PREV           &kp C_VOL_DN    &kp C_VOL_UP  &kp C_NEXT  &hm RCTRL SQT
+&hm LALT MINUS   &none  &kp N1  &kp N2        &kp N3            &none      &kp LS(LG(N3))      &kp LG(LS(N4))       &kp C_STOP      &kp C_PP      &kp K_MUTE  &hm RALT RBKT
+                        &hm LGUI ESC          &hm LSHFT SPACE   &lt 1 TAB  &none               &hm RSHFT BACKSPACE  &hm RGUI DELETE
             >;
         };
 

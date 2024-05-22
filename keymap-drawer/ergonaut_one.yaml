@@ -38,104 +38,96 @@ layers:
   - {t: ']', h: Alt}
   - {t: Esc, h: Gui}
   - {t: ␣, h: Shift}
-  - {t: ↹, h: nav}
-  - {t: ⏎, h: mouse}
+  - {t: ↹, h: fun}
+  - {t: ⏎, h: num}
   - {t: BACKSPACE, h: Shift}
   - {t: DELETE, h: Gui}
-  nav:
+  fun:
+  - \
+  - ''
+  - F7
+  - F8
+  - F9
+  - F12
   - ''
   - ''
   - ''
   - ''
+  - Caps Lock
+  - '['
+  - {t: '=', h: Ctrl}
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Ctrl
-  - Alt
-  - Gui
-  - Shift
-  - ''
+  - F4
+  - F5
+  - F6
+  - F11
   - ←
   - ↓
   - ↑
   - →
   - ''
+  - {t: '''', h: Ctrl}
+  - {t: '-', h: Alt}
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - F1
+  - F2
+  - F3
+  - F10
   - Home
   - Page Down
   - Page Up
   - End
   - Insert
-  - Caps Lock
-  - ''
-  - ''
+  - {t: ']', h: Alt}
+  - {t: Esc, h: Gui}
+  - {t: ␣, h: Shift}
   - {type: held}
   - ⏎
-  - ⌫
-  - ⌦
-  mouse:
+  - {t: BACKSPACE, h: Shift}
+  - {t: DELETE, h: Gui}
+  num:
+  - \
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - Gui+Sft+Ctl+ 3
+  - Sft+Gui+Ctl+ 4
+  - BRI DN
+  - BRI UP
+  - ''
+  - '['
+  - {t: '=', h: Ctrl}
+  - ''
+  - '4'
+  - '5'
+  - '6'
   - ''
   - ''
+  - ⏮️
+  - Vol Down
+  - Vol Up
+  - ⏭️
+  - {t: '''', h: Ctrl}
+  - {t: '-', h: Alt}
   - ''
+  - '1'
+  - '2'
+  - '3'
   - ''
-  - ''
-  - ''
-  - GLOBE
-  - AC SEARCH
-  - AC DESKTOP SHOW ALL WINDOWS
-  - AC DESKTOP SHOW ALL APPLICATIONS
-  - APP
-  - ''
-  - ''
-  - Ctrl
-  - Alt
-  - Gui
-  - Shift
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - adjust
-  - ''
-  - ''
-  - {t: '&mkp MB1', type: held}
-  - '&mkp MB2'
-  - '&mkp MB3'
-  media: ['', '', '', '', '', '', Gui+Sft+Ctl+ 3, Sft+Gui+Ctl+ 4, BRI DN, BRI UP, '', '', '', Ctrl, Alt, Gui, Shift, '', '', ⏮️, Vol Down, Vol Up, ⏭️, '', '', '',
-    '', '', '', '', Sft+Gui+ 3, Gui+Sft+ 4, '', '', '', '', '', '', adjust, STOP, ⏯, MUTE]
-  num: ['', '', '7', '8', '9', '', '', '', '', '', '', '', '', '', '4', '5', '6', '', '', Shift, Gui, Alt, Ctrl, '', '', '', '1', '2', '3', '', '', '', '', '', '',
-    '', Esc, '0', ↹, '', '', '']
-  sym: ['', '', '&', '*', (, '', '', '', '', '', '', '', '', '', $, '%', ^, '', '', Shift, Gui, Alt, Ctrl, '', '', '', '!', '@', '#', '', '', '', '', '', '', '',
-    (, ), '|', '', '', adjust]
-  fun: ['', '', F7, F8, F9, F12, '', '', '', '', '', '', '', '', F4, F5, F6, F11, '', Shift, Gui, Alt, Ctrl, '', '', '', F1, F2, F3, F10, '', '', '', '', '', '',
-    Esc, ␣, ↹, '', '', adjust]
+  - Sft+Gui+ 3
+  - Gui+Sft+ 4
+  - STOP
+  - ⏯
+  - MUTE
+  - {t: ']', h: Alt}
+  - {t: Esc, h: Gui}
+  - {t: ␣, h: Shift}
+  - {t: ↹, h: fun}
+  - {type: held}
+  - {t: BACKSPACE, h: Shift}
+  - {t: DELETE, h: Gui}
   adjust:
   - Boot
   - ''
@@ -173,10 +165,10 @@ layers:
   - Out BLE
   - OUT TOG
   - Reset
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
