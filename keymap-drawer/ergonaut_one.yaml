@@ -172,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [16, 19]
+- p: [37, 40]
   k: Caps Word
   l: [default]
 - p: [1, 13]
