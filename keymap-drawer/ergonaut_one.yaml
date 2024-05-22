@@ -104,11 +104,11 @@ layers:
   - '5'
   - '6'
   - ''
-  - ''
   - ⏮️
-  - Vol Down
-  - Vol Up
+  - ⏯
+  - STOP
   - ⏭️
+  - ''
   - Ctrl
   - Alt
   - ''
@@ -118,8 +118,8 @@ layers:
   - ''
   - Sft+Gui+ 3
   - Gui+Sft+ 4
-  - STOP
-  - ⏯
+  - Vol Down
+  - Vol Up
   - MUTE
   - Alt
   - Gui
