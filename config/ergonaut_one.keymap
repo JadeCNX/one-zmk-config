@@ -166,7 +166,7 @@
 &kp BACKSLASH    &none  &kp N7  &kp N8        &kp N9            &none      &kp LG(LS(LC(N3)))  &kp LS(LG(LC(N4)))   &kp C_BRI_DN    &kp C_BRI_UP  &none       &kp LBKT
 &hm LCTRL EQUAL  &none  &kp N4  &kp N5        &kp N6            &none      &none               &kp C_PREV           &kp C_VOL_DN    &kp C_VOL_UP  &kp C_NEXT  &hm RCTRL SQT
 &hm LALT MINUS   &none  &kp N1  &kp N2        &kp N3            &none      &kp LS(LG(N3))      &kp LG(LS(N4))       &kp C_STOP      &kp C_PP      &kp K_MUTE  &hm RALT RBKT
-                        &hm LGUI ESC          &hm LSHFT SPACE   &lt 1 TAB  &none               &hm RSHFT BACKSPACE  &hm RGUI DELETE
+                        &hm LGUI ESC          &hm LSHFT SPACE   &lt TAB    &none               &hm RSHFT BACKSPACE  &hm RGUI DELETE
             >;
         };
 

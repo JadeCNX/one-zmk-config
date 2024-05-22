@@ -124,7 +124,7 @@ layers:
   - {t: ']', h: Alt}
   - {t: Esc, h: Gui}
   - {t: ␣, h: Shift}
-  - {t: ↹, h: fun}
+  - '&lt TAB'
   - {type: held}
   - {t: BACKSPACE, h: Shift}
   - {t: DELETE, h: Gui}
