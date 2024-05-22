@@ -43,7 +43,7 @@ layers:
   - {t: BACKSPACE, h: Shift}
   - {t: DELETE, h: Gui}
   fun:
-  - \
+  - ''
   - ''
   - F7
   - F8
@@ -54,8 +54,8 @@ layers:
   - ''
   - ''
   - Caps Lock
-  - '['
-  - {t: '=', h: Ctrl}
+  - ''
+  - Ctrl
   - ''
   - F4
   - F5
@@ -66,8 +66,8 @@ layers:
   - ↑
   - →
   - ''
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - Ctrl
+  - Alt
   - ''
   - F1
   - F2
@@ -78,15 +78,15 @@ layers:
   - Page Up
   - End
   - Insert
-  - {t: ']', h: Alt}
-  - {t: Esc, h: Gui}
-  - {t: ␣, h: Shift}
+  - Alt
+  - Gui
+  - Shift
   - {type: held}
-  - ⏎
-  - {t: BACKSPACE, h: Shift}
-  - {t: DELETE, h: Gui}
+  - ''
+  - Shift
+  - Gui
   num:
-  - \
+  - ''
   - ''
   - '7'
   - '8'
@@ -97,8 +97,8 @@ layers:
   - BRI DN
   - BRI UP
   - ''
-  - '['
-  - {t: '=', h: Ctrl}
+  - ''
+  - Ctrl
   - ''
   - '4'
   - '5'
@@ -109,8 +109,8 @@ layers:
   - Vol Down
   - Vol Up
   - ⏭️
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - Ctrl
+  - Alt
   - ''
   - '1'
   - '2'
@@ -121,13 +121,13 @@ layers:
   - STOP
   - ⏯
   - MUTE
-  - {t: ']', h: Alt}
-  - {t: Esc, h: Gui}
-  - {t: ␣, h: Shift}
-  - '&lt TAB'
+  - Alt
+  - Gui
+  - Shift
+  - ''
   - {type: held}
-  - {t: BACKSPACE, h: Shift}
-  - {t: DELETE, h: Gui}
+  - Shift
+  - Gui
   adjust:
   - Boot
   - ''
