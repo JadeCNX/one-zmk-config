@@ -12,19 +12,19 @@ layers:
   - O
   - P
   - '['
-  - '`'
-  - {t: A, h: Ctrl}
-  - {t: S, h: Alt}
-  - {t: D, h: Gui}
-  - {t: F, h: Shift}
+  - {t: '=', h: Ctrl}
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: Shift}
-  - {t: K, h: Gui}
-  - {t: L, h: Alt}
-  - {t: ;, h: Ctrl}
-  - ''''
-  - '-'
+  - J
+  - K
+  - L
+  - ;
+  - {t: '''', h: Ctrl}
+  - {t: '-', h: Alt}
   - Z
   - X
   - C
@@ -35,13 +35,13 @@ layers:
   - ','
   - .
   - /
-  - ']'
-  - {t: Esc, h: media}
-  - {t: ␣, h: nav}
-  - {t: ↹, h: mouse}
-  - {t: ⏎, h: sym}
-  - {t: ⌫, h: num}
-  - {t: ⌦, h: fun}
+  - {t: ']', h: Alt}
+  - {t: Esc, h: Gui}
+  - {t: ␣, h: Shift}
+  - {t: ↹, h: nav}
+  - {t: ⏎, h: mouse}
+  - {t: BACKSPACE, h: Shift}
+  - {t: DELETE, h: Gui}
   nav:
   - ''
   - ''
@@ -80,8 +80,8 @@ layers:
   - Insert
   - Caps Lock
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   - ⏎
   - ⌫
   - ⌦
@@ -124,182 +124,18 @@ layers:
   - ''
   - adjust
   - ''
-  - {type: held}
-  - '&mkp MB1'
+  - ''
+  - {t: '&mkp MB1', type: held}
   - '&mkp MB2'
   - '&mkp MB3'
-  media:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Gui+Sft+Ctl+ 3
-  - Sft+Gui+Ctl+ 4
-  - BRI DN
-  - BRI UP
-  - ''
-  - ''
-  - ''
-  - Ctrl
-  - Alt
-  - Gui
-  - Shift
-  - ''
-  - ''
-  - ⏮️
-  - Vol Down
-  - Vol Up
-  - ⏭️
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Sft+Gui+ 3
-  - Gui+Sft+ 4
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - adjust
-  - STOP
-  - ⏯
-  - MUTE
-  num:
-  - ''
-  - ''
-  - '7'
-  - '8'
-  - '9'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '4'
-  - '5'
-  - '6'
-  - ''
-  - ''
-  - Shift
-  - Gui
-  - Alt
-  - Ctrl
-  - ''
-  - ''
-  - ''
-  - '1'
-  - '2'
-  - '3'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Esc
-  - '0'
-  - ↹
-  - ''
-  - {type: held}
-  - ''
-  sym:
-  - ''
-  - ''
-  - '&'
-  - '*'
-  - (
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $
-  - '%'
-  - ^
-  - ''
-  - ''
-  - Shift
-  - Gui
-  - Alt
-  - Ctrl
-  - ''
-  - ''
-  - ''
-  - '!'
-  - '@'
-  - '#'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - (
-  - )
-  - '|'
-  - {type: held}
-  - ''
-  - adjust
-  fun:
-  - ''
-  - ''
-  - F7
-  - F8
-  - F9
-  - F12
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - F4
-  - F5
-  - F6
-  - F11
-  - ''
-  - Shift
-  - Gui
-  - Alt
-  - Ctrl
-  - ''
-  - ''
-  - ''
-  - F1
-  - F2
-  - F3
-  - F10
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Esc
-  - ␣
-  - ↹
-  - ''
-  - ''
-  - {t: adjust, type: held}
+  media: ['', '', '', '', '', '', Gui+Sft+Ctl+ 3, Sft+Gui+Ctl+ 4, BRI DN, BRI UP, '', '', '', Ctrl, Alt, Gui, Shift, '', '', ⏮️, Vol Down, Vol Up, ⏭️, '', '', '',
+    '', '', '', '', Sft+Gui+ 3, Gui+Sft+ 4, '', '', '', '', '', '', adjust, STOP, ⏯, MUTE]
+  num: ['', '', '7', '8', '9', '', '', '', '', '', '', '', '', '', '4', '5', '6', '', '', Shift, Gui, Alt, Ctrl, '', '', '', '1', '2', '3', '', '', '', '', '', '',
+    '', Esc, '0', ↹, '', '', '']
+  sym: ['', '', '&', '*', (, '', '', '', '', '', '', '', '', '', $, '%', ^, '', '', Shift, Gui, Alt, Ctrl, '', '', '', '!', '@', '#', '', '', '', '', '', '', '',
+    (, ), '|', '', '', adjust]
+  fun: ['', '', F7, F8, F9, F12, '', '', '', '', '', '', '', '', F4, F5, F6, F11, '', Shift, Gui, Alt, Ctrl, '', '', '', F1, F2, F3, F10, '', '', '', '', '', '',
+    Esc, ␣, ↹, '', '', adjust]
   adjust:
   - Boot
   - ''
@@ -339,8 +175,8 @@ layers:
   - Reset
   - {type: held}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
