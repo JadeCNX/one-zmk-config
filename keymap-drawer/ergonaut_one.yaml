@@ -35,7 +35,7 @@ layers:
   - ','
   - .
   - /
-  - {t: ']', h: Alt}
+  - {t: ']', h: Shift}
   - {t: Esc, h: Gui}
   - ␣
   - {t: ↹, h: fun}
@@ -80,13 +80,13 @@ layers:
   - Insert
   - Shift
   - Gui
-  - Shift
+  - ''
   - {type: held}
   - ''
-  - Shift
+  - ''
   - Gui
   num:
-  - ''
+  - Alt
   - ''
   - '7'
   - '8'
@@ -97,7 +97,7 @@ layers:
   - BRI DN
   - BRI UP
   - ''
-  - ''
+  - Alt
   - Ctrl
   - ''
   - '4'
@@ -110,7 +110,7 @@ layers:
   - ⏭️
   - ''
   - Ctrl
-  - Alt
+  - Shift
   - ''
   - '1'
   - '2'
@@ -121,12 +121,12 @@ layers:
   - Vol Down
   - Vol Up
   - MUTE
-  - Alt
+  - Shift
   - Gui
   - '0'
   - ''
   - {type: held}
-  - Shift
+  - ''
   - Gui
   adjust:
   - Boot
