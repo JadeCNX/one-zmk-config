@@ -149,6 +149,12 @@
             key-positions = <39 41>;
             layers = <0>;
         };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <1 0>;
+            layers = <0>;
+        };
     };
 
     keymap {

@@ -396,6 +396,10 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="538" y="202" width="28" height="26" class="combo"/>
 <text x="552" y="215" class="combo tap">adjust</text>
 </g>
+<g class="combo combopos-19">
+<rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
+<text x="56" y="49" class="combo tap">`</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-fun">
