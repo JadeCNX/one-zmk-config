@@ -1,6 +1,6 @@
 layers:
   default:
-  - \
+  - {t: \, h: Alt}
   - Q
   - W
   - E
@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - '['
+  - {t: '[', h: Alt}
   - {t: '=', h: Ctrl}
   - A
   - S
@@ -24,7 +24,7 @@ layers:
   - L
   - ;
   - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - {t: '-', h: Shift}
   - Z
   - X
   - C
@@ -37,13 +37,13 @@ layers:
   - /
   - {t: ']', h: Alt}
   - {t: Esc, h: Gui}
-  - {t: ␣, h: Shift}
+  - ␣
   - {t: ↹, h: fun}
   - {t: ⏎, h: num}
-  - {t: BACKSPACE, h: Shift}
+  - BACKSPACE
   - {t: DELETE, h: Gui}
   fun:
-  - ''
+  - Alt
   - ''
   - F7
   - F8
@@ -54,7 +54,7 @@ layers:
   - ''
   - ''
   - Caps Lock
-  - ''
+  - Alt
   - Ctrl
   - ''
   - F4
@@ -67,7 +67,7 @@ layers:
   - →
   - ''
   - Ctrl
-  - Alt
+  - Shift
   - ''
   - F1
   - F2
@@ -78,7 +78,7 @@ layers:
   - Page Up
   - End
   - Insert
-  - Alt
+  - Shift
   - Gui
   - Shift
   - {type: held}
@@ -123,7 +123,7 @@ layers:
   - MUTE
   - Alt
   - Gui
-  - Shift
+  - '0'
   - ''
   - {type: held}
   - Shift
