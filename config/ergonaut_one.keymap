@@ -38,103 +38,67 @@
 
         capsword {
             bindings = <&caps_word>;
-            key-positions = <37 40>;
+            key-positions = <24 35>;
             layers = <0>;
         };
 
         excl {
             bindings = <&kp EXCL>;
-            key-positions = <1 13>;
+            key-positions = <13 25>;
             layers = <0>;
         };
 
         at {
             bindings = <&kp AT>;
-            key-positions = <2 14>;
+            key-positions = <14 26>;
             layers = <0>;
         };
 
         hash {
             bindings = <&kp HASH>;
-            key-positions = <3 15>;
+            key-positions = <27 15>;
             layers = <0>;
         };
 
         dollar {
             bindings = <&kp DOLLAR>;
-            key-positions = <4 16>;
+            key-positions = <16 28>;
             layers = <0>;
         };
 
         pct {
             bindings = <&kp PERCENT>;
-            key-positions = <5 17>;
+            key-positions = <21 33>;
             layers = <0>;
         };
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <6 18>;
+            key-positions = <22 34>;
             layers = <0>;
         };
 
         amps {
             bindings = <&kp AMPS>;
-            key-positions = <7 19>;
+            key-positions = <19 31>;
             layers = <0>;
         };
 
         star {
             bindings = <&kp ASTRK>;
-            key-positions = <8 20>;
-            layers = <0>;
-        };
-
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <9 21>;
-            layers = <0>;
-        };
-
-        plus {
-            bindings = <&kp PLUS>;
-            key-positions = <10 22>;
-            layers = <0>;
-        };
-
-        undo {
-            bindings = <&kp LG(Z)>;
-            key-positions = <25 13>;
-            layers = <0>;
-        };
-
-        cut {
-            bindings = <&kp LG(X)>;
-            key-positions = <14 26>;
-            layers = <0>;
-        };
-
-        copy {
-            bindings = <&kp LG(C)>;
-            key-positions = <15 27>;
-            layers = <0>;
-        };
-
-        paste {
-            bindings = <&kp LG(V)>;
-            key-positions = <16 28>;
+            key-positions = <20 32>;
             layers = <0>;
         };
 
         lpar {
             bindings = <&kp LPAR>;
-            key-positions = <19 31>;
+            key-positions = <31 32>;
             layers = <0>;
         };
 
         rpar {
             bindings = <&kp RPAR>;
-            key-positions = <32 20>;
+            key-positions = <33 34>;
             layers = <0>;
         };
 
@@ -171,10 +135,10 @@
 
         fun_layer {
             bindings = <
-&kp LALT   &none  &kp F7  &kp F8    &kp F9     &kp F12  &none     &none      &none      &none      &kp CAPS  &kp RALT
-&kp LCTRL  &none  &kp F4  &kp F5    &kp F6     &kp F11  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none     &kp RCTRL
-&kp LSHFT  &none  &kp F1  &kp F2    &kp F3     &kp F10  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp INS   &kp LSHFT
-                          &kp LGUI  &none      &none    &none     &none      &kp RGUI
+&kp LALT   &none  &kp F7  &kp F8    &kp F9  &kp F12  &none     &none      &none      &none      &kp CAPS  &kp RALT
+&kp LCTRL  &none  &kp F4  &kp F5    &kp F6  &kp F11  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none     &kp RCTRL
+&kp LSHFT  &none  &kp F1  &kp F2    &kp F3  &kp F10  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp INS   &kp LSHFT
+                          &kp LGUI  &none   &none    &none     &none      &kp RGUI
             >;
         };
 
