@@ -1,6 +1,6 @@
 layers:
   default:
-  - {t: \, h: Alt}
+  - \
   - Q
   - W
   - E
@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - {t: '[', h: Alt}
+  - '['
   - {t: '=', h: Ctrl}
   - A
   - S
@@ -36,14 +36,14 @@ layers:
   - .
   - /
   - {t: ']', h: Shift}
-  - {t: Esc, h: Gui}
-  - ␣
+  - {t: Esc, h: Alt}
+  - {t: ␣, h: Gui}
   - {t: ↹, h: fun}
   - {t: ⏎, h: num}
-  - BACKSPACE
-  - {t: DELETE, h: Gui}
+  - {t: BACKSPACE, h: Gui}
+  - {t: DELETE, h: Alt}
   fun:
-  - Alt
+  - ''
   - ''
   - F7
   - F8
@@ -53,8 +53,8 @@ layers:
   - ''
   - ''
   - ''
+  - ''
   - Caps Lock
-  - Alt
   - Ctrl
   - ''
   - F4
@@ -79,14 +79,14 @@ layers:
   - End
   - Insert
   - Shift
-  - Gui
-  - ''
+  - {t: Esc, h: Alt}
+  - {t: Esc, h: Gui}
   - {type: held}
   - ''
-  - ''
-  - Gui
+  - {t: BACKSPACE, h: Gui}
+  - {t: DELETE, h: Alt}
   num:
-  - Alt
+  - ''
   - ''
   - '7'
   - '8'
@@ -97,13 +97,13 @@ layers:
   - BRI DN
   - BRI UP
   - ''
-  - Alt
+  - ''
   - Ctrl
   - ''
   - '4'
   - '5'
   - '6'
-  - ''
+  - '0'
   - ⏮️
   - ⏯
   - STOP
@@ -122,12 +122,12 @@ layers:
   - Vol Up
   - MUTE
   - Shift
-  - Gui
-  - '0'
+  - {t: Esc, h: Alt}
+  - {t: Esc, h: Gui}
   - ''
   - {type: held}
-  - ''
-  - Gui
+  - {t: BACKSPACE, h: Gui}
+  - {t: DELETE, h: Alt}
   adjust:
   - Boot
   - ''
