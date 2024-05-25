@@ -80,7 +80,7 @@ layers:
   - Insert
   - Shift
   - {t: Esc, h: Alt}
-  - {t: Esc, h: Gui}
+  - {t: ␣, h: Gui}
   - {type: held}
   - ''
   - {t: BACKSPACE, h: Gui}
@@ -123,7 +123,7 @@ layers:
   - MUTE
   - Shift
   - {t: Esc, h: Alt}
-  - {t: Esc, h: Gui}
+  - {t: ␣, h: Gui}
   - ''
   - {type: held}
   - {t: BACKSPACE, h: Gui}
