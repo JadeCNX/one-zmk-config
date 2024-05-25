@@ -119,6 +119,11 @@
             key-positions = <1 0>;
             layers = <0>;
         };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <12 13>;
+        };
     };
 
     keymap {
