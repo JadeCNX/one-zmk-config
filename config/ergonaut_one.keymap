@@ -123,6 +123,7 @@
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <12 13>;
+            layers = <0>;
         };
     };
 
