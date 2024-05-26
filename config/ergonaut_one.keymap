@@ -141,10 +141,10 @@
 
         fun_layer {
             bindings = <
-&kp CAPS   &none  &kp F7  &kp F8        &kp F9           &kp F12  &none     &none                &none            &none      &none    &none
-&kp LCTRL  &none  &kp F4  &kp F5        &kp F6           &kp F11  &kp LEFT  &kp DOWN             &kp UP           &kp RIGHT  &none    &kp RCTRL
-&kp LALT   &none  &kp F1  &kp F2        &kp F3           &kp F10  &kp HOME  &kp PG_DN            &kp PG_UP        &kp END    &kp INS  &kp RALT
-                          &hm LGUI ESC  &hm LSHFT SPACE  &none    &none     &hm LSHFT BACKSPACE  &hm RGUI DELETE
+&kp CAPS   &none  &kp F7  &kp F8        &kp F9           &kp F12  &kp GLOBE  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &none      &none    &none
+&kp LCTRL  &none  &kp F4  &kp F5        &kp F6           &kp F11  &kp LEFT   &kp DOWN                                &kp UP                             &kp RIGHT  &none    &kp RCTRL
+&kp LALT   &none  &kp F1  &kp F2        &kp F3           &kp F10  &kp HOME   &kp PG_DN                               &kp PG_UP                          &kp END    &kp INS  &kp RALT
+                          &hm LGUI ESC  &hm LSHFT SPACE  &none    &none      &hm LSHFT BACKSPACE                     &hm RGUI DELETE
             >;
         };
 
@@ -159,10 +159,10 @@
 
         adjust_layer {
             bindings = <
-&bootloader  &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &bootloader
-&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
-&sys_reset   &out OUT_TOG  &out OUT_BLE  &out OUT_USB  &none         &none         &none         &none         &out OUT_USB  &out OUT_BLE  &out OUT_TOG  &sys_reset
-                                         &trans        &trans        &trans        &trans        &trans        &trans
+&bootloader  &none         &none         &none         &none         &kp LC(LG(Q))  &kp C_PWR     &none         &none         &none         &none         &bootloader
+&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
+&sys_reset   &out OUT_TOG  &out OUT_BLE  &out OUT_USB  &none         &none          &none         &none         &out OUT_USB  &out OUT_BLE  &out OUT_TOG  &sys_reset
+                                         &trans        &trans        &trans         &trans        &trans        &trans
             >;
         };
     };
