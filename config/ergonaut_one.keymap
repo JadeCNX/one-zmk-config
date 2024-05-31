@@ -28,20 +28,21 @@
 
     behaviors {
         hmr: homerow_right {
-          compatible = "zmk,behavior-hold-tap";
-          label = "HOMEROW_MODS_RIGHT";
-          #binding-cells = <2>;
-          tapping-term-ms = <220>;
-          flavor = "tap-preferred";
-          bindings = <&kp>, <&kp>;
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_RIGHT";
+            #binding-cells = <2>;
+            tapping-term-ms = <220>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
         };
+
         hml: homerow_left {
-          compatible = "zmk,behavior-hold-tap";
-          label = "HOMEROW_MODS_LEFT";
-          #binding-cells = <2>;
-          tapping-term-ms = <220>;
-          flavor = "tap-preferred";
-          bindings = <&kp>, <&kp>;
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_LEFT";
+            #binding-cells = <2>;
+            tapping-term-ms = <220>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
         };
     };
 
@@ -50,7 +51,7 @@
 
         capsword {
             bindings = <&caps_word>;
-            key-positions = <37 40>;
+            key-positions = <16 19>;
             layers = <0>;
         };
 
@@ -114,18 +115,6 @@
             layers = <0>;
         };
 
-        ladj {
-            bindings = <&mo 3>;
-            key-positions = <38 36>;
-            layers = <0>;
-        };
-
-        radj {
-            bindings = <&mo 3>;
-            key-positions = <39 41>;
-            layers = <0>;
-        };
-
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <1 0>;
@@ -144,10 +133,10 @@
 
         default_layer {
             bindings = <
-&kp BACKSLASH  &kp Q         &kp W        &kp E           &kp R          &kp T          &kp Y        &kp U         &kp I        &kp O       &kp P           &kp LBKT
-&kp GRAVE      &hml LCTRL A  &hml LALT S  &hml LGUI D     &hml LSHFT F   &kp G          &kp H        &hmr RSHFT J  &hmr RGUI K  &hmr RALT L &hmr RCTRL SEMI &kp SQT
-&kp MINUS      &kp Z         &kp X        &kp C           &kp V          &kp B          &kp N        &kp M         &kp COMMA    &kp DOT     &kp FSLH        &kp RBKT
-                                        &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB  &lt SYM RET  &lt NUM BSPC  &lt FUN DEL
+&kp BACKSLASH  &kp Q         &kp W        &kp E          &kp R          &kp T          &kp Y        &kp U         &kp I        &kp O        &kp P            &kp LBKT
+&kp GRAVE      &hml LCTRL A  &hml LALT S  &hml LGUI D    &hml LSHFT F   &kp G          &kp H        &hmr RSHFT J  &hmr RGUI K  &hmr RALT L  &hmr RCTRL SEMI  &kp SQT
+&kp MINUS      &kp Z         &kp X        &kp C          &kp V          &kp B          &kp N        &kp M         &kp COMMA    &kp DOT      &kp FSLH         &kp RBKT
+                                          &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB  &lt SYM RET  &lt NUM BSPC  &lt FUN DEL
             >;
         };
 
@@ -211,6 +200,15 @@
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
 &sys_reset   &out OUT_TOG  &out OUT_BLE  &out OUT_USB  &none         &none         &none         &none         &out OUT_USB  &out OUT_BLE  &out OUT_TOG  &sys_reset
                                          &trans        &trans        &trans        &trans        &trans        &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
