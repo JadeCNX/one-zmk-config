@@ -27,15 +27,23 @@
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
     behaviors {
-        hm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <220>;
-            quick_tap_ms = <0>;
-            flavor = "balanced";
-            bindings = <&kp>, <&kp>;
+        hmr: homerow_right {
+          compatible = "zmk,behavior-hold-tap";
+          label = "HOMEROW_MODS_RIGHT";
+          #binding-cells = <2>;
+          tapping-term-ms = <220>;
+          flavor = "tap-preferred";
+          bindings = <&kp>, <&kp>;
         };
+        hml: homerow_left {
+          compatible = "zmk,behavior-hold-tap";
+          label = "HOMEROW_MODS_LEFT";
+          #binding-cells = <2>;
+          tapping-term-ms = <220>;
+          flavor = "tap-preferred";
+          bindings = <&mo>, <&kp>;
+        };
+    }; 
     };
 
     combos {
@@ -43,103 +51,91 @@
 
         capsword {
             bindings = <&caps_word>;
-            key-positions = <16 19>;
+            key-positions = <37 40>;
             layers = <0>;
         };
 
         excl {
             bindings = <&kp EXCL>;
-            key-positions = <1 13>;
+            key-positions = <13 25>;
             layers = <0>;
         };
 
         at {
             bindings = <&kp AT>;
-            key-positions = <2 14>;
+            key-positions = <14 26>;
             layers = <0>;
         };
 
         hash {
             bindings = <&kp HASH>;
-            key-positions = <3 15>;
+            key-positions = <27 15>;
             layers = <0>;
         };
 
         dollar {
             bindings = <&kp DOLLAR>;
-            key-positions = <4 16>;
+            key-positions = <16 28>;
             layers = <0>;
         };
 
         pct {
             bindings = <&kp PERCENT>;
-            key-positions = <5 17>;
+            key-positions = <21 33>;
             layers = <0>;
         };
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <6 18>;
+            key-positions = <22 34>;
             layers = <0>;
         };
 
         amps {
             bindings = <&kp AMPS>;
-            key-positions = <7 19>;
+            key-positions = <19 31>;
             layers = <0>;
         };
 
         star {
             bindings = <&kp ASTRK>;
-            key-positions = <8 20>;
-            layers = <0>;
-        };
-
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <9 21>;
-            layers = <0>;
-        };
-
-        plus {
-            bindings = <&kp PLUS>;
-            key-positions = <10 22>;
-            layers = <0>;
-        };
-
-        undo {
-            bindings = <&kp LG(Z)>;
-            key-positions = <25 13>;
-            layers = <0>;
-        };
-
-        cut {
-            bindings = <&kp LG(X)>;
-            key-positions = <14 26>;
-            layers = <0>;
-        };
-
-        copy {
-            bindings = <&kp LG(C)>;
-            key-positions = <15 27>;
-            layers = <0>;
-        };
-
-        paste {
-            bindings = <&kp LG(V)>;
-            key-positions = <16 28>;
+            key-positions = <20 32>;
             layers = <0>;
         };
 
         lpar {
             bindings = <&kp LPAR>;
-            key-positions = <19 31>;
+            key-positions = <31 32>;
             layers = <0>;
         };
 
         rpar {
             bindings = <&kp RPAR>;
-            key-positions = <32 20>;
+            key-positions = <33 34>;
+            layers = <0>;
+        };
+
+        ladj {
+            bindings = <&mo 3>;
+            key-positions = <38 36>;
+            layers = <0>;
+        };
+
+        radj {
+            bindings = <&mo 3>;
+            key-positions = <39 41>;
+            layers = <0>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <1 0>;
+            layers = <0>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <12 13>;
             layers = <0>;
         };
     };
@@ -149,9 +145,9 @@
 
         default_layer {
             bindings = <
-&kp BACKSLASH  &kp Q        &kp W       &kp E          &kp R          &kp T          &kp Y        &kp U         &kp I        &kp O       &kp P           &kp LBKT
-&kp GRAVE      &hm LCTRL A  &hm LALT S  &hm LGUI D     &hm LSHFT F    &kp G          &kp H        &hm RSHFT J   &hm RGUI K   &hm RALT L  &hm RCTRL SEMI  &kp SQT
-&kp MINUS      &kp Z        &kp X       &kp C          &kp V          &kp B          &kp N        &kp M         &kp COMMA    &kp DOT     &kp FSLH        &kp RBKT
+&kp BACKSLASH  &kp Q         &kp W        &kp E           &kp R          &kp T          &kp Y        &kp U         &kp I        &kp O       &kp P           &kp LBKT
+&kp GRAVE      &hml LCTRL A  &hml LALT S  &hml LGUI D     &hml LSHFT F   &kp G          &kp H        &hmr RSHFT J  &hmr RGUI K  &hmr RALT L &hmr RCTRL SEMI &kp SQT
+&kp MINUS      &kp Z         &kp X        &kp C           &kp V          &kp B          &kp N        &kp M         &kp COMMA    &kp DOT     &kp FSLH        &kp RBKT
                                         &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB  &lt SYM RET  &lt NUM BSPC  &lt FUN DEL
             >;
         };
