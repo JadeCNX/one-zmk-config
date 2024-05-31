@@ -133,10 +133,10 @@
 
         default_layer {
             bindings = <
-&kp BACKSLASH  &kp Q         &kp W        &kp E          &kp R          &kp T          &kp Y        &kp U         &kp I        &kp O        &kp P            &kp LBKT
-&kp GRAVE      &hml LCTRL A  &hml LALT S  &hml LGUI D    &hml LSHFT F   &kp G          &kp H        &hmr RSHFT J  &hmr RGUI K  &hmr RALT L  &hmr RCTRL SEMI  &kp SQT
-&kp MINUS      &kp Z         &kp X        &kp C          &kp V          &kp B          &kp N        &kp M         &kp COMMA    &kp DOT      &kp FSLH         &kp RBKT
-                                          &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB  &lt SYM RET  &lt NUM BSPC  &lt FUN DEL
+&kp BACKSLASH  &kp Q         &kp W        &kp E        &kp R         &kp T      &kp Y      &kp U         &kp I        &kp O        &kp P            &kp LBKT
+&kp EQUAL      &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G      &kp H      &hmr RSHFT J  &hmr RGUI K  &hmr RALT L  &hmr RCTRL SEMI  &kp SQT
+&kp MINUS      &kp Z         &kp X        &kp C        &kp V         &kp B      &kp N      &kp M         &kp COMMA    &kp DOT      &kp FSLH         &kp RBKT
+                                          &lt 3 ESC    &lt 1 SPACE   &lt 2 TAB  &lt 5 RET  &lt 4 BSPC    &lt 6 DEL
             >;
         };
 
@@ -154,16 +154,16 @@
 &none  &none      &none     &none     &none      &none  &kp GLOBE  &kp C_AC_SEARCH  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp K_APP  &none
 &none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none  &none      &none            &none                              &none                                   &none      &none
 &none  &none      &none     &none     &none      &none  &none      &none            &none                              &none                                   &none      &none
-                            &mo ADJ   &none      &none  &mkp MB1   &mkp MB2         &mkp MB3
+                            &mo 7     &none      &none  &mkp MB1   &mkp MB2         &mkp MB3
             >;
         };
 
         media_layer {
             bindings = <
-&none  &none      &none     &none     &none      &none    &kp LG(LS(LC(N3)))  &kp LS(LG(LC(N4)))  &kp C_BRI_DN  &kp C_BRI_UP  &none       &none
-&none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none    &none               &kp C_PREV          &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &none
-&none  &none      &none     &none     &none      &none    &kp LS(LG(N3))      &kp LG(LS(N4))      &none         &none         &none       &none
-                            &none     &none      &mo ADJ  &kp C_STOP          &kp C_PP            &kp K_MUTE
+&none  &none      &none     &none     &none      &none  &kp LG(LS(LC(N3)))  &kp LS(LG(LC(N4)))  &kp C_BRI_DN  &kp C_BRI_UP  &none       &none
+&none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none  &none               &kp C_PREV          &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &none
+&none  &none      &none     &none     &none      &none  &kp LS(LG(N3))      &kp LG(LS(N4))      &none         &none         &none       &none
+                            &none     &none      &mo 7  &kp C_STOP          &kp C_PP            &kp K_MUTE
             >;
         };
 
@@ -181,7 +181,7 @@
 &none  &none  &kp AMPS  &kp STAR   &kp LPAR   &none     &none  &none      &none     &none     &none      &none
 &none  &none  &kp DLLR  &kp PRCNT  &kp CARET  &none     &none  &kp RSHFT  &kp RGUI  &kp RALT  &kp RCTRL  &none
 &none  &none  &kp EXCL  &kp AT     &kp HASH   &none     &none  &none      &none     &none     &none      &none
-                        &kp LPAR   &kp RPAR   &kp PIPE  &none  &none      &mo ADJ
+                        &kp LPAR   &kp RPAR   &kp PIPE  &none  &none      &mo 7
             >;
         };
 
@@ -190,7 +190,7 @@
 &none  &none  &kp F7  &kp F8   &kp F9     &kp F12  &none  &none      &none     &none     &none      &none
 &none  &none  &kp F4  &kp F5   &kp F6     &kp F11  &none  &kp LSHFT  &kp RGUI  &kp LALT  &kp RCTRL  &none
 &none  &none  &kp F1  &kp F2   &kp F3     &kp F10  &none  &none      &none     &none     &none      &none
-                      &kp ESC  &kp SPACE  &kp TAB  &none  &none      &mo ADJ
+                      &kp ESC  &kp SPACE  &kp TAB  &none  &none      &mo 7
             >;
         };
 
@@ -200,15 +200,6 @@
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
 &sys_reset   &out OUT_TOG  &out OUT_BLE  &out OUT_USB  &none         &none         &none         &none         &out OUT_USB  &out OUT_BLE  &out OUT_TOG  &sys_reset
                                          &trans        &trans        &trans        &trans        &trans        &trans
-            >;
-        };
-
-        layer_8 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
