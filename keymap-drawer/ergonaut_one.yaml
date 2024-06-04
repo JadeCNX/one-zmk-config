@@ -105,9 +105,9 @@ layers:
   - Shift
   - ''
   - Gui+Ctl+ ␣
-  - ''
-  - ''
-  - ''
+  - {t: num, h: toggle}
+  - {t: sym, h: toggle}
+  - {t: fun, h: toggle}
   - ''
   - ''
   - ''
@@ -185,7 +185,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '0'
   - '4'
   - '5'
   - '6'
@@ -208,9 +208,9 @@ layers:
   - ''
   - ''
   - ''
-  - Esc
-  - '0'
-  - ↹
+  - {t: default, h: toggle}
+  - ␣
+  - mouse
   - ''
   - {type: held}
   - ''
@@ -251,9 +251,9 @@ layers:
   - ''
   - ''
   - ''
-  - (
-  - )
-  - '|'
+  - {t: default, h: toggle}
+  - ␣
+  - mouse
   - {type: held}
   - ''
   - adjust
@@ -294,12 +294,12 @@ layers:
   - ''
   - ''
   - ''
-  - Esc
+  - {t: default, h: toggle}
   - ␣
-  - ↹
+  - mouse
+  - adjust
   - ''
-  - ''
-  - {t: adjust, type: held}
+  - {type: held}
   adjust:
   - Boot
   - ''
