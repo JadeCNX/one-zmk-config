@@ -105,12 +105,18 @@
         l-adjust {
             bindings = <&mo 6>;
             key-positions = <36 38>;
-            layers = <0 5>;
+            layers = <0>;
         };
 
         r-adjust {
             bindings = <&mo 6>;
             key-positions = <39 41>;
+            layers = <0>;
+        };
+
+        tog-fun {
+            bindings = <&tog 5>;
+            key-positions = <41 40>;
             layers = <0 5>;
         };
     };

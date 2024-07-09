@@ -288,7 +288,10 @@ combos:
   l: [default]
 - p: [36, 38]
   k: adjust
-  l: [default, fun]
+  l: [default]
 - p: [39, 41]
   k: adjust
+  l: [default]
+- p: [41, 40]
+  k: {t: fun, h: toggle}
   l: [default, fun]
