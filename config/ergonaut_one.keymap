@@ -115,7 +115,7 @@
             >;
         };
 
-        sub_layer {
+        extra_layer {
             bindings = <
 &none  &none      &none     &none     &none      &none  &none     &none      &none      &none      &none      &kp LPAR
 &none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp TILDE  &kp GRAVE
