@@ -38,10 +38,10 @@ layers:
   - ']'
   - {t: Esc, h: media}
   - {t: ␣, h: nav}
-  - {t: ↹, h: mouse}
-  - {t: ⏎, h: sym}
+  - ↹
+  - ENTER
   - {t: ⌫, h: num}
-  - {t: ⌦, h: fun}
+  - {t: ⌦, h: fkey}
   nav:
   - ''
   - ''
@@ -54,7 +54,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - (
   - ''
   - Ctrl
   - Alt
@@ -65,8 +65,8 @@ layers:
   - ↓
   - ↑
   - →
-  - ''
-  - ''
+  - '~'
+  - '`'
   - ''
   - ''
   - ''
@@ -77,57 +77,14 @@ layers:
   - Page Down
   - Page Up
   - End
-  - Insert
-  - Caps Lock
+  - ''
+  - )
   - ''
   - {type: held}
   - ''
   - ⏎
   - ⌫
   - ⌦
-  mouse:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - AC SEARCH
-  - AC DESKTOP SHOW ALL WINDOWS
-  - AC DESKTOP SHOW ALL APPLICATIONS
-  - APP
-  - ''
-  - ''
-  - Ctrl
-  - Alt
-  - Gui
-  - Shift
-  - ''
-  - ''
-  - Gui+ ␣
-  - GLOBE
-  - Gui+Ctl+ ␣
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - adjust
-  - ''
-  - {type: held}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
   media:
   - ''
   - ''
@@ -214,50 +171,7 @@ layers:
   - ''
   - {type: held}
   - ''
-  sym:
-  - ''
-  - ''
-  - '&'
-  - '*'
-  - (
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $
-  - '%'
-  - ^
-  - ''
-  - ''
-  - Shift
-  - Gui
-  - Alt
-  - Ctrl
-  - ''
-  - ''
-  - ''
-  - '!'
-  - '@'
-  - '#'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - (
-  - ␣
-  - )
-  - {type: held}
-  - ''
-  - adjust
-  fun:
+  fkey:
   - ''
   - ''
   - F7
@@ -300,6 +214,49 @@ layers:
   - adjust
   - ''
   - {type: held}
+  fun:
+  - \
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '['
+  - '='
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - '-'
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ']'
+  - {t: Esc, h: media}
+  - {t: ␣, h: nav}
+  - ↹
+  - ENTER
+  - {t: ⌫, h: num}
+  - {t: ⌦, h: fkey}
   adjust:
   - Boot
   - ''
@@ -307,7 +264,7 @@ layers:
   - ''
   - ''
   - Gui+Ctl+ Q
-  - ''
+  - {t: fun, h: toggle}
   - ''
   - ''
   - ''
@@ -370,16 +327,4 @@ combos:
   l: [default]
 - p: [20, 32]
   k: '*'
-  l: [default]
-- p: [31, 32]
-  k: (
-  l: [default]
-- p: [33, 34]
-  k: )
-  l: [default]
-- p: [1, 0]
-  k: '`'
-  l: [default]
-- p: [12, 13]
-  k: '~'
   l: [default]
