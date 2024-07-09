@@ -101,6 +101,18 @@
             key-positions = <20 32>;
             layers = <0>;
         };
+
+        l-adjust {
+            bindings = <&mo 6>;
+            key-positions = <36 38>;
+            layers = <0 5>;
+        };
+
+        r-adjust {
+            bindings = <&mo 6>;
+            key-positions = <39 41>;
+            layers = <0 5>;
+        };
     };
 
     keymap {
@@ -129,7 +141,7 @@
 &none  &none      &none     &none     &none      &none  &kp LG(LS(LC(N3)))  &kp LS(LG(LC(N4)))  &kp C_BRI_DN  &kp C_BRI_UP  &none       &none
 &none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none  &none               &kp C_PREV          &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT  &none
 &none  &none      &none     &none     &none      &none  &kp LS(LG(N3))      &kp LG(LS(N4))      &none         &none         &none       &none
-                            &none     &none      &mo 6  &kp C_STOP          &kp C_PP            &kp K_MUTE
+                            &none     &none      &none  &kp C_STOP          &kp C_PP            &kp K_MUTE
             >;
         };
 
@@ -147,16 +159,16 @@
 &none  &none  &kp F7  &kp F8   &kp F9     &kp F12  &none  &none      &none     &none     &none      &none
 &none  &none  &kp F4  &kp F5   &kp F6     &kp F11  &none  &kp LSHFT  &kp RGUI  &kp LALT  &kp RCTRL  &none
 &none  &none  &kp F1  &kp F2   &kp F3     &kp F10  &none  &none      &none     &none     &none      &none
-                      &kp ESC  &kp SPACE  &kp TAB  &mo 6  &none      &none
+                      &kp ESC  &kp SPACE  &kp TAB  &none  &none      &none
             >;
         };
 
         fun_layer {
             bindings = <
-&kp BACKSLASH  &kp Q  &kp W  &kp E      &kp R        &kp T    &kp Y      &kp U       &kp I      &kp O    &kp P     &kp LBKT
-&kp EQUAL      &kp A  &kp S  &kp D      &kp F        &kp G    &kp H      &kp J       &kp K      &kp L    &kp SEMI  &kp SQT
-&kp MINUS      &kp Z  &kp X  &kp C      &kp V        &kp B    &kp N      &kp M       &kp COMMA  &kp DOT  &kp FSLH  &kp RBKT
-                             &lt 2 ESC  &lt 1 SPACE  &kp TAB  &kp ENTER  &lt 3 BSPC  &lt 4 DEL
+&kp BACKSLASH  &kp Q  &kp W  &kp E    &kp R      &kp T    &kp Y      &kp U          &kp I      &kp O    &kp P     &kp LBKT
+&kp EQUAL      &kp A  &kp S  &kp D    &kp F      &kp G    &kp H      &kp J          &kp K      &kp L    &kp SEMI  &kp SQT
+&kp MINUS      &kp Z  &kp X  &kp C    &kp V      &kp B    &kp N      &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RBKT
+                             &kp ESC  &kp SPACE  &kp TAB  &kp ENTER  &kp BACKSPACE  &kp DEL
             >;
         };
 

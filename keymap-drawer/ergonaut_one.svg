@@ -361,6 +361,18 @@ text.label, text.footer { stroke: black; }
 <rect rx="6" ry="6" x="630" y="99" width="28" height="26" class="combo"/>
 <text x="644" y="112" class="combo tap">*</text>
 </g>
+<g class="combo combopos-9">
+<path d="M288,215 l-45,-7" class="combo"/>
+<path d="M288,215 l45,7" class="combo"/>
+<rect rx="6" ry="6" x="274" y="202" width="28" height="26" class="combo"/>
+<text x="288" y="215" class="combo tap">adjust</text>
+</g>
+<g class="combo combopos-10">
+<path d="M552,215 l-45,7" class="combo"/>
+<path d="M552,215 l45,-7" class="combo"/>
+<rect rx="6" ry="6" x="538" y="202" width="28" height="26" class="combo"/>
+<text x="552" y="215" class="combo tap">adjust</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-extra">
@@ -666,7 +678,6 @@ text.label, text.footer { stroke: black; }
 </g>
 <g transform="translate(351, 224) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">adjust</text>
 </g>
 <g transform="translate(489, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
@@ -971,7 +982,6 @@ text.label, text.footer { stroke: black; }
 </g>
 <g transform="translate(489, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">adjust</text>
 </g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1131,12 +1141,10 @@ text.label, text.footer { stroke: black; }
 <g transform="translate(224, 205)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Esc</text>
-<text x="0" y="24" class="key hold">media</text>
 </g>
 <g transform="translate(286, 213) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">␣</text>
-<text x="0" y="24" class="key hold">extra</text>
 </g>
 <g transform="translate(351, 224) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
@@ -1148,13 +1156,23 @@ text.label, text.footer { stroke: black; }
 </g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">⌫</text>
-<text x="0" y="24" class="key hold">num</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 </g>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">⌦</text>
-<text x="0" y="24" class="key hold">fkey</text>
+</g>
+<g class="combo combopos-0">
+<path d="M288,215 l-45,-7" class="combo"/>
+<path d="M288,215 l45,7" class="combo"/>
+<rect rx="6" ry="6" x="274" y="202" width="28" height="26" class="combo"/>
+<text x="288" y="215" class="combo tap">adjust</text>
+</g>
+<g class="combo combopos-1">
+<path d="M552,215 l-45,7" class="combo"/>
+<path d="M552,215 l45,-7" class="combo"/>
+<rect rx="6" ry="6" x="538" y="202" width="28" height="26" class="combo"/>
+<text x="552" y="215" class="combo tap">adjust</text>
 </g>
 </g>
 </g>

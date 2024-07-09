@@ -124,7 +124,7 @@ layers:
   - ''
   - {type: held}
   - ''
-  - adjust
+  - ''
   - STOP
   - ⏯
   - MUTE
@@ -211,52 +211,10 @@ layers:
   - Esc
   - ␣
   - ↹
-  - adjust
+  - ''
   - ''
   - {type: held}
-  fun:
-  - \
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - '['
-  - '='
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - '-'
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - ']'
-  - {t: Esc, h: media}
-  - {t: ␣, h: extra}
-  - ↹
-  - ENTER
-  - {t: ⌫, h: num}
-  - {t: ⌦, h: fkey}
+  fun: [\, Q, W, E, R, T, Y, U, I, O, P, '[', '=', A, S, D, F, G, H, J, K, L, ;, '''', '-', Z, X, C, V, B, N, M, ',', ., /, ']', Esc, ␣, ↹, ENTER, BACKSPACE, ⌦]
   adjust:
   - Boot
   - ''
@@ -328,3 +286,9 @@ combos:
 - p: [20, 32]
   k: '*'
   l: [default]
+- p: [36, 38]
+  k: adjust
+  l: [default, fun]
+- p: [39, 41]
+  k: adjust
+  l: [default, fun]
