@@ -37,12 +37,12 @@ layers:
   - /
   - ']'
   - {t: Esc, h: media}
-  - {t: ␣, h: nav}
+  - {t: ␣, h: sub}
   - ↹
   - ENTER
   - {t: ⌫, h: num}
   - {t: ⌦, h: fkey}
-  nav:
+  sub:
   - ''
   - ''
   - ''
@@ -252,7 +252,7 @@ layers:
   - /
   - ']'
   - {t: Esc, h: media}
-  - {t: ␣, h: nav}
+  - {t: ␣, h: sub}
   - ↹
   - ENTER
   - {t: ⌫, h: num}
