@@ -336,7 +336,13 @@ combos:
   l: [home]
 - p: [41, 40]
   k: {t: norm, h: toggle}
-  l: [home, norm]
-- p: [37, 36]
+  l: [home]
+- p: [41, 40]
+  k: {t: home, h: toggle}
+  l: [extra, norm]
+- p: [36, 37]
   k: {t: extra, h: toggle}
-  l: [home, norm]
+  l: [home]
+- p: [36, 37]
+  k: {t: home, h: toggle}
+  l: [extra, norm]

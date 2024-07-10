@@ -114,16 +114,28 @@
             layers = <0>;
         };
 
-        tog-norm {
+        to-norm {
             bindings = <&tog 5>;
             key-positions = <41 40>;
-            layers = <0 5>;
+            layers = <0>;
         };
 
-        tog-extra {
-            bindings = <&tog 1>;
-            key-positions = <37 36>;
-            layers = <0 5>;
+        r-home {
+            bindings = <&to 0>;
+            key-positions = <41 40>;
+            layers = <1 5>;
+        };
+
+        to-extra {
+            bindings = <&to 1>;
+            key-positions = <36 37>;
+            layers = <0>;
+        };
+
+        l-home {
+            bindings = <&to 0>;
+            key-positions = <36 37>;
+            layers = <1 5>;
         };
     };
 
