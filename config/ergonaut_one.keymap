@@ -130,7 +130,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        home_layer {
             bindings = <
 &kp BACKSLASH  &kp Q         &kp W        &kp E        &kp R         &kp T    &kp Y      &kp U         &kp I        &kp O        &kp P            &kp LBKT
 &kp EQUAL      &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G    &kp H      &hmr RSHFT J  &hmr RGUI K  &hmr RALT L  &hmr RCTRL SEMI  &kp SQT

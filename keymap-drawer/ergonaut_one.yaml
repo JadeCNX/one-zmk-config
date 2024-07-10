@@ -1,5 +1,5 @@
 layers:
-  default:
+  home:
   - \
   - Q
   - W
@@ -303,40 +303,40 @@ layers:
 combos:
 - p: [16, 19]
   k: Caps Word
-  l: [default]
+  l: [home]
 - p: [13, 25]
   k: '!'
-  l: [default]
+  l: [home]
 - p: [14, 26]
   k: '@'
-  l: [default]
+  l: [home]
 - p: [27, 15]
   k: '#'
-  l: [default]
+  l: [home]
 - p: [16, 28]
   k: $
-  l: [default]
+  l: [home]
 - p: [21, 33]
   k: '%'
-  l: [default]
+  l: [home]
 - p: [22, 34]
   k: ^
-  l: [default]
+  l: [home]
 - p: [19, 31]
   k: '&'
-  l: [default]
+  l: [home]
 - p: [20, 32]
   k: '*'
-  l: [default]
+  l: [home]
 - p: [36, 38]
   k: adjust
-  l: [default]
+  l: [home]
 - p: [39, 41]
   k: adjust
-  l: [default]
+  l: [home]
 - p: [41, 40]
   k: {t: norm, h: toggle}
-  l: [default, norm]
+  l: [home, norm]
 - p: [37, 36]
   k: {t: extra, h: toggle}
-  l: [default, norm]
+  l: [home, norm]
