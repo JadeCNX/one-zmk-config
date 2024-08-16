@@ -103,39 +103,15 @@
         };
 
         l-adjust {
-            bindings = <&mo 6>;
+            bindings = <&mo 5>;
             key-positions = <36 38>;
             layers = <0>;
         };
 
         r-adjust {
-            bindings = <&mo 6>;
+            bindings = <&mo 5>;
             key-positions = <39 41>;
             layers = <0>;
-        };
-
-        to-norm {
-            bindings = <&tog 5>;
-            key-positions = <41 40>;
-            layers = <0>;
-        };
-
-        r-home {
-            bindings = <&to 0>;
-            key-positions = <41 40>;
-            layers = <1 5>;
-        };
-
-        to-extra {
-            bindings = <&to 1>;
-            key-positions = <36 37>;
-            layers = <0>;
-        };
-
-        l-home {
-            bindings = <&to 0>;
-            key-positions = <36 37>;
-            layers = <1 5>;
         };
     };
 
@@ -184,15 +160,6 @@
 &none  &none  &kp F4  &kp F5   &kp F6     &kp F11  &none  &kp LSHFT  &kp RGUI  &kp LALT  &kp RCTRL  &none
 &none  &none  &kp F1  &kp F2   &kp F3     &kp F10  &none  &none      &none     &none     &none      &none
                       &kp ESC  &kp SPACE  &kp TAB  &none  &none      &none
-            >;
-        };
-
-        norm_layer {
-            bindings = <
-&kp BACKSLASH  &kp Q  &kp W  &kp E      &kp R        &kp T    &kp Y      &kp U            &kp I      &kp O    &kp P     &kp LBKT
-&kp EQUAL      &kp A  &kp S  &kp D      &kp F        &kp G    &kp H      &kp J            &kp K      &kp L    &kp SEMI  &kp SQT
-&kp MINUS      &kp Z  &kp X  &kp C      &kp V        &kp B    &kp N      &kp M            &kp COMMA  &kp DOT  &kp FSLH  &kp RBKT
-                             &lt 2 ESC  &lt 1 SPACE  &kp TAB  &kp ENTER  &lt 3 BACKSPACE  &lt 4 DEL
             >;
         };
 
