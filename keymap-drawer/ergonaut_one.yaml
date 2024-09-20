@@ -46,9 +46,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - AC DESKTOP SHOW ALL APPLICATIONS
+  - AC DESKTOP SHOW ALL WINDOWS
+  - Ctl+Gui+ Q
   - ''
   - ''
   - ''
@@ -60,7 +60,7 @@ layers:
   - Alt
   - Gui
   - Shift
-  - ''
+  - GLOBE
   - ←
   - ↓
   - ↑
@@ -95,7 +95,7 @@ layers:
   - ''
   - Sft+Gui+Ctl+ 3
   - Gui+Sft+Ctl+ 4
-  - Sft+ BRI DN
+  - BRI DN
   - BRI UP
   - ''
   - ''
@@ -220,7 +220,7 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+Ctl+ Q
+  - ''
   - ''
   - ''
   - ''
