@@ -49,8 +49,8 @@
         mcr: macro_repeat_click {
             compatible = "zmk,behavior-macro";
             label = "Repeat Click";
-            bindings = <&mkp MB1 &mkp MB1 &mkp MB1>;
-            wait-ms = <100>;
+            bindings = <&mkp MB1>;
+            wait-ms = <50>;
         };
     };
 
