@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: ergonaut_one}
 layers:
   home:
   - \
@@ -90,12 +91,12 @@ layers:
   - ''
   - ''
   - ''
+  - '&mcr'
   - ''
   - ''
-  - ''
-  - Sft+Gui+Ctl+ 3
-  - Gui+Sft+Ctl+ 4
-  - Sft+ BRI DN
+  - Sft+Gui+Ctl+3
+  - Gui+Sft+Ctl+4
+  - Sft+BRI DN
   - BRI UP
   - ''
   - ''
@@ -117,8 +118,8 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+Sft+ 3
-  - Gui+Sft+ 4
+  - Gui+Sft+3
+  - Gui+Sft+4
   - ''
   - ''
   - ''
@@ -220,7 +221,7 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+Ctl+ Q
+  - Gui+Ctl+Q
   - ''
   - ''
   - ''
